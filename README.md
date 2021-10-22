@@ -6,6 +6,10 @@ useStepper is a react package meant for assisting the creation of stepper forms/
 
 I will update playable demo once the package goes live. [See demo](https://parceljs.org) `/example`.
 
+### Usage
+
+First you need to wrap you component with `withStepper` . You can now use `useStepper` inside that component or any that nests inside it. Calling `useStepper` only requires you to provide `{ totalNumberOfSteps:number }` at least. You can destructure out `isFirstStep,isLastStep,currentStep,handleNext,handlePrevious,navigateStep,handleReset and body` from `useStepper` . Though keep in mind that you need to pass `bodyComponents` which should be an array of Components. The `body` always refers to current active Component and you may render it as needed.`
+
 ```ts
 const Demo = () => {
   const {
