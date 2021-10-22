@@ -37,7 +37,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "usestepper",
+  "name": "use-stepper",
   "author": "Senpai013045",
   "module": "dist/usestepper.esm.js",
   "size-limit": [
