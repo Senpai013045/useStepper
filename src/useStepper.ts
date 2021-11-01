@@ -2,7 +2,7 @@ import { useStepperContext } from './Context';
 import * as React from 'react';
 
 interface Props {
-  totalNumberOfSteps: number;
+  totalNumberOfSteps?: number;
   onStepChange?: (step: number) => void;
   onStepsComplete?: () => void;
   onStepsReset?: () => void;
@@ -13,7 +13,7 @@ interface Props {
 }
 
 export const useStepper = ({
-  totalNumberOfSteps,
+  totalNumberOfSteps = 3,
   onStepChange,
   onStepsComplete,
   onStepsReset,

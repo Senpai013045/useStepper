@@ -4,7 +4,7 @@ useStepper is a react package meant for assisting the creation of stepper forms/
 
 ## Demo
 
-I will update playable demo once the package goes live. [See demo](https://parceljs.org) `/example`.
+[See demo](https://codesandbox.io/s/react-usestepper-demo-95s0w?file=/src/index.tsx) `or take a look at basic example in /example`.
 
 ### Usage
 
